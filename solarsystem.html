@@ -10,4 +10,39 @@
       </ul>
     </nav>
   </body>
+ 
+  <head>
+      <style>
+        td, th {
+        	border-collapse: collapse;
+        	border: 1px solid #000;
+        }
+        
+      </style>
+  </head>
+  
+    
+  <body>
+    	<table>
+          <thead>
+            <th></th>
+            <th>Col 1</th>
+            <th>Col 2</th>
+           </thead>
+          <tbody>
+           	<tr>
+            <td rowspan="2">Row 1</td>
+            <td>Data1</td>
+            <td>Data2</td>
+            </tr>
+           	<tr>
+          <!--This cell spanned by above-->
+            <td colspan="2" rowspan="2"> Data1</td>
+            <td>Data2</td>
+            </tr>
+            <tr>
+              <td>Row2</td>
+            </tr>
+          </tbody>
+    </table>
 </html>
