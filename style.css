@@ -7,7 +7,15 @@ color: green;
 }
 
 h1 {
-  color: blue;
+  color: red;
+}
+
+h1 {
+  color: red;
+}
+
+body{
+  color: black;
 }
 
 body{
