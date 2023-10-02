@@ -2,9 +2,14 @@ thead th { text-align: left aligned}
 thead th { background-color: gray;}
 tbody th { text-align: left aligned}
 tbody tr  { text-align: center }
-tr td { background-color: light red}
-tr td { background-color: light green}
-tr td { background-color: light blue}
-tr td { background-color: light orange}
-tr td { background-color: light yellow}
+tbody tr { background-color: light red}
+tbody tr { background-color: light green}
+tbody tr { background-color: light blue}
+tbody tr { background-color: light orange}
+tbody tr { background-color: light yellow}
 
+.red { color: red; }
+.green { color: green; }
+.blue { color: blue; }
+.orange { color: orange; }
+.purple { color: purple; }
