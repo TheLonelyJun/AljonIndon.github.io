@@ -8,8 +8,3 @@ tr ~ td { background-color: light blue}
 tr ~ td { background-color: light orange}
 tr ~ td { background-color: light yellow}
 
-.red { background-color: red; }
-.green { background-color: green; }
-.blue { background-color: blue; }
-.orange { background-color: orange; }
-.purple { background-color: purple; }
