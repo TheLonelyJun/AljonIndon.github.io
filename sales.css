@@ -1,5 +1,5 @@
 thead th { text-align: left aligned}
-thead th { background-color: gray;}
+thead th { background-color: Dark purple; color: white;}
 tbody th { text-align: left aligned}
 tbody tr  { text-align: center }
  table {
@@ -11,10 +11,10 @@ tbody tr  { text-align: center }
     }
 
     tr:nth-child(odd) {
-        background-color: #bebebe;
+        background-color: purple;
     }
 
     tr:nth-child(even) {
-        background-color: #000;
-        color: #FFF;
+        background-color: light purple;
+
     }
