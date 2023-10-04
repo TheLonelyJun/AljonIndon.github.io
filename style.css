@@ -13,10 +13,12 @@ p {
 body {
   background-color:gray;
 }
-nav { display : flex; }
+nav { 
+display : flex; 
 Flex-wrap: flex;
-flex: 1;
-nav {
+flex: 1; }
+
+ul {
   background-color: blue;
   flex: 1;
   text-align: center;
