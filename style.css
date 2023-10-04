@@ -13,7 +13,7 @@ p {
 body {
   background-color:gray;
 }
-nav { 
+ul { 
 display : flex; 
 Flex-wrap: flex;
 text-align: center;
