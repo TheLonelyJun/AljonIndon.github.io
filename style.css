@@ -16,3 +16,11 @@ body {
 nav { display : flex; }
 Flex-wrap: flex;
 flex: 1;
+nav {
+  background-color: blue;
+  flex: 1;
+}
+li {
+  background-color: red;
+  text-align: center;
+}
