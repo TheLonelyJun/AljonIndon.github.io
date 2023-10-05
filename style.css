@@ -27,5 +27,6 @@ text-align: center;
 ol {
   background-color: white;
   text-align: center;
+  justify-content: space-around;
   flex: 1;
 }
