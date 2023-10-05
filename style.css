@@ -13,6 +13,7 @@ p {
 body {
   background-color:gray;
 }
+
 nav { display : flex; 
 Flex-wrap: flex;
 text-align: center;
@@ -21,6 +22,8 @@ ul {
 display : flex; 
 Flex-wrap: flex;
 text-align: center;
+justify-content: space-around;
+  
 }
 
 
