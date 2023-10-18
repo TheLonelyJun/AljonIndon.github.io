@@ -1,23 +1,11 @@
-  .container {
+ .container {
   display: grid;
+  grid-template-areas:
+    "green green yellow white"
+    "green green yellow red"
+    "yellow yellow green green"
+    "red white green green";
 
   gap: 20px;
 
-  }
-      .green {
-   grid-column: 1/ span 2;
-   grid-row: 1/ span 2;
-  }
-
-    .yellow {
-   grid-column: 1/ span 2;
-   grid-row: 1/2;
-  }
-
-    .red {
-   grid-column: 2;
-   grid-row: 4;
-  }
-    </style>
-    </head>
-<body>
+}
