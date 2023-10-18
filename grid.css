@@ -1,12 +1,11 @@
-        .container {
+.container {
   display: grid;
   grid-template-areas:
     "green green yellow white"
     "green green yellow red"
     "yellow yellow green green"
     "red white green green";
-  grid-template-rows: 4fr;
-  grid-template-columns: 4fr;
+
 
   gap: 20px;
 
