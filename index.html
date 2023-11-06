@@ -25,8 +25,21 @@
         </section>  
       </main>
 	<script>
-	let x = (12)**2*2/(6 + 7);
-	console.log(x);
+	let aspen = {
+ 	   height: 23.5,
+ 	   type: "deciduous",
+	    colors: {
+	        bark: "white",
+	        summerLeaves: "green",
+	        fallLeaves: "yellow"
+		    }
+		}
+
+		let aspen2 = structuredClone(aspen2);
+		aspen2.colors.bark = "brown";	
+
+		console.log(aspen2.colors.bark);
+		console.log(aspen.colors.bark);
 	</script>
   </body>
 
